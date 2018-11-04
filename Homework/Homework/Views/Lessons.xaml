@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Homework.Views.Lessons"
+             NavigationPage.HasNavigationBar="False">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <ScrollView Grid.Row="1">
+            <StackLayout Spacing="20" Padding="15">
+                <Label Text="Bu dönem yürütülen lisans ve lisansüstü ders bilgileri"
+                VerticalOptions="Start" TextColor="Red" FontSize="Medium"
+                 />
+
+                <Label Text=" BIL519 - İleri Algoritma Analizi" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIL551 - İleri Veri Tabanı Yönetim Sistemleri" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIL561 - Bulanık Sinir Ağları" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIL567 - Öneri Sistemlerine Giriş" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIM101 - Bilgisayar Programlama I" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIM203 - Mantık Tasarımı" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIM207 - Bilgisayar Programlama III" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIM209 - Yazılım Tasarlama ve Geliştirme Prensipleri" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIM213 - Veri Yapıları ve Algoritmalar" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIM302 - Bilgisayar Ağları" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIM303 - Mikrobilgisayarlar" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIM305 - Bilgisayar Organizasyonu" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIM306 - İşletim Sistemleri" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIM308 - Web Sunucu Programlama" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIM309 - Yapay Us" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIM313 - İleri Programlama Teknikleri" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIM314 - Hesaplama Kuramı" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIM405 - Proje Yönetimi" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIM423 - Yazılım Mühendisliği" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIM437 - Bilgisayar Mühendisliği Tasarımları" VerticalOptions="Start"  FontSize="Small"/>
+                <Label Text=" BIM439 - Veritabanı Yönetim Sistemleri Uygulamaları" VerticalOptions="Start"  FontSize="Small"/>
+
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

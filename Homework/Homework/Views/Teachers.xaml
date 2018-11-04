@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Homework.Views.Teachers"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <StackLayout Orientation="Horizontal" BackgroundColor="MistyRose">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"/>
+                    <Label Text="Dr Öğr. Üyesi Ahmet Arslan" Grid.Row="0" Grid.Column="0" HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="1" BackgroundColor="MistyRose">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/yhoscan.jpg" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"/>
+                   <Label Text="Prof. Dr. Yaşar HOŞCAN"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Grid.Row="1" Grid.Column="0" BackgroundColor="MistyRose">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/serkangunal.jpg" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"/>
+                    <Label Text="Assoc.Prof.Dr. Serkan GÜNAL" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Grid.Row="1" Grid.Column="1" BackgroundColor="MistyRose">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/ckaleli.jpg" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"/>
+                    <Label Text="Assoc.Prof.Dr. Cihan KALELİ" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Grid.Row="2" Grid.Column="0" BackgroundColor="MistyRose">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/akuysal.jpg" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"/>
+                    <Label Text="Dr.Öğr. Üyesi Alper Kürşat UYSAL" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Grid.Row="2" Grid.Column="1" BackgroundColor="MistyRose">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/abilge.png" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"/>
+                    <Label Text="Dr.Öğr. Üyesi Alper BİLGE" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Grid.Row="3" Grid.Column="0" BackgroundColor="MistyRose">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/sevcany.jpg" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"/>
+                    <Label Text="Dr.Öğr. Üyesi Sevcan YILMAZ GÜNDÜZ Department Vice Chair" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Grid.Row="3" Grid.Column="1" BackgroundColor="MistyRose">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/byurekli.jpg" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"/>
+                    <Label Text="Res.Asst.Dr. Burcu YÜREKLİ YILMAZEL" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Grid.Row="4" Grid.Column="0" BackgroundColor="MistyRose">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/oozsen.jpg" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"/>
+                    <Label Text="Lect. Özgür ÖZŞEN Internship Coordinator" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Grid.Row="4" Grid.Column="1" BackgroundColor="MistyRose">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/ekacmaz.jpg" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"/>
+                    <Label Text="Lect. Emre KAÇMAZ" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Grid.Row="5" Grid.Column="0" BackgroundColor="MistyRose">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/roaltug.jpeg" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"/>
+                    <Label Text="Lect. Reha Oğuz ALTUĞ" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Grid.Row="5" Grid.Column="1" BackgroundColor="MistyRose">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/ayargic.jpg" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"/>
+                    <Label Text="Res.Asst. Alper YARGIÇ" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Grid.Row="6" Grid.Column="0" BackgroundColor="MistyRose">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/etdemirkiran.jpg" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"/>
+                    <Label Text="Res.Asst. Emin Talip DEMİRKIRAN Deputy Erasmus Internship Coordinator" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Grid.Row="6" Grid.Column="1" BackgroundColor="MistyRose">
+                    <Image Source="http://ceng.eskisehir.edu.tr/img/rasimcekik.jpg" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"/>
+                    <Label Text="Res.Asst. Rasim ÇEKİK" />
+                </StackLayout>
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
